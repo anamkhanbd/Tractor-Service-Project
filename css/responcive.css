@@ -1,0 +1,126 @@
+
+
+@media screen  and (max-width: 600px) {
+    
+    
+    .navigation{
+        margin-top: 0px;
+    }
+    .navigation li{
+        padding: 10px;
+    }
+    .navigation li a{
+        font-size: 15px;
+        padding: 0px 15px;
+    }
+    @keyframes run {
+        0% {margin: 0px;}
+        100% {margin-left: 300px;}
+    }
+    #cover{
+        background-size: cover;
+    }
+    #cover h1{
+        font-size: 50px;
+    }
+    #cover h2{
+        margin-top: -12px;
+    }
+    #service{
+        padding: 25px 0;
+        background-image: url(../images/mobile-v-bg.svg);
+        background-size: 200px;
+    }
+    .flex-collam{
+        flex-direction: column;
+    }
+    .flex-item{
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+    .card{
+        width: 30rem;
+    }
+    .card-tittle{
+        font-size: large;
+    }
+    .card-text{
+        font-size: 15px;
+        text-align: justify;
+    }
+    h1.tittle{
+        text-align: center;
+        font-size: x-large;
+        font-weight: lighter;
+        border-radius: 10px;
+        padding: 15px 0px;
+    }
+    .maps{
+        display: none;
+    }
+    .manager-img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .manager-img img{
+        width: 150px;
+        border-radius: 5px;
+    }
+    .manager-bio{
+        margin: 0px 90px;
+    }
+    h2.name{
+        display: block;
+        margin-left: 27px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    h2.subtittle{
+        text-align: center;
+    }
+    .info-contact{
+        margin: -10px 0 50px 0px;
+    }
+    .info-contact h2{
+        display: none;
+    }
+    .info-contact ul li{
+
+        margin: 20px 45px 10px 0;
+        padding: 0;
+    }
+    .icon{
+        width: 40px;
+    }
+    .mt50px{
+        margin-top: 20px;
+    }
+    .item-service{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    #video{
+        margin-top: 50px;
+    }
+    .video-mt50{
+        margin-bottom: 50px;
+    }
+    .video-item{
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid crimson;
+        margin-bottom: 50px;
+    }
+    .one-video{
+        display: none;
+    }
+    .form{
+        display: none;
+    }
+    .form-mini{
+        display: block;
+    }
+  }
